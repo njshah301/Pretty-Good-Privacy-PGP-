@@ -1,0 +1,2 @@
+Netsim License Server IP: 14.139.122.120
+Port Number : 52033
