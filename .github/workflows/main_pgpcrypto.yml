@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'pgpcrypto'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_13FE0B99E5A941D8B5F466D60E708694 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F8529969373F4F138E5DFCBB76D20ACB }}
