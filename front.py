@@ -6,6 +6,9 @@ import pandas as pd
 import back
 import pywebio.input as pwi
 from pywebio.input import textarea
+import pywebio.output as pwo
+ig=open("1.jpg",'rb').read()
+pwo.put_image(ig)
 def encrypt_file():
     pwo.clear()
     userfile=pwi.file_upload('Choose your file')
