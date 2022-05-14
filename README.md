@@ -11,13 +11,11 @@ The mathematics behind encryption can get pretty complex, so here we’ll stick 
 2. This session key is encrypted. This is done using the public key of the intended recipient of the message. The public key is tied to a particular person’s identity, and anyone can use it to send them a message.
 3. The sender sends their encrypted PGP session key to the recipient, and they are able to decrypt it using their private key. Using this session key, the recipient is now able to decrypt the actual message.
 
-Reference : https://www.varonis.com/blog/pgp-encryption#:~:text=Pretty%20Good%20Privacy%20(PGP)%20is,is%20based%20on%20two%20factors
 
 ## _Implementation procedure:_
 
-We used Kleopatra openPGP software to implement PGP for Email data encryption. By using this software we tried to generate public key.
-Python code to generate the PGP key in the key store :
-#Image
+We used Kleopatra openPGP software to implement PGP for Email data encryption. By using this software we tried to generate public key and certificates.
+![My image](http://url/to/image.jpg)
 
 This code automatically puts the the PGP key into the key store. The email address is your unique identifier for accessing the key from the key store. As you will see in the examples below, in order to encrypt a file we will use the public key portion from the key store; however, in order to decrypt that same file, we will use the private key portion with the passphrase.
 **Encryption:**
@@ -36,4 +34,5 @@ After this, we tried to implement this encryption method through web application
 For web application we used pywebio library which gave us verious functionalities for frontend and backend.
 we build encryption and decryption functions in the backend which are called using buttons given in the frontend.
 
+Reference : https://www.varonis.com/blog/pgp-encryption#:~:text=Pretty%20Good%20Privacy%20(PGP)%20is,is%20based%20on%20two%20factors
 
