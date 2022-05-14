@@ -25,11 +25,11 @@ Below will be the Homepage of our Application:
 
 **Encryption:**
 We can do two types of Encryption here:
-- Add a secret file
-- Add a secret message
+#1. Add a secret file
+#2. Add a secret message
 ![Encryption_Page](https://user-images.githubusercontent.com/58663029/168425314-29347b76-6699-47df-b358-50ccf279281f.png)
 
--Add a secret file
+#1. Add a secret file
 ![secret_file](https://user-images.githubusercontent.com/58663029/168425415-7e8dff14-7c58-48db-80fa-d59a2e1a29e3.png)
 
 The encrypted message is as below:
@@ -41,7 +41,7 @@ In order to decrypt the contents of this file, we need to use the PGP private ke
 ![decrypted_key](https://user-images.githubusercontent.com/58663029/168425503-b6c9cee0-09e7-43da-940b-f32975725f83.png)
 
 
--Add a secret message
+#2. Add a secret message
 ![enct2](https://user-images.githubusercontent.com/58663029/168425523-f9e1f619-1862-4ae1-8d08-b5fcde7d8dfe.png)
 The encrypted message is as below:
 
