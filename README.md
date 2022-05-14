@@ -42,7 +42,8 @@ In order to decrypt the contents of this file, we need to use the PGP private ke
 
 
 # 2. Add a secret message
-![enct2](https://user-images.githubusercontent.com/58663029/168425523-f9e1f619-1862-4ae1-8d08-b5fcde7d8dfe.png)
+![message](https://user-images.githubusercontent.com/58663029/168425796-75f1f4d0-786e-4f59-9d59-cc5e2e1f95ff.png)
+
 The encrypted message is as below:
 
 
