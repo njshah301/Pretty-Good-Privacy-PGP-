@@ -15,6 +15,7 @@ The mathematics behind encryption can get pretty complex, so here we’ll stick 
 ## _Implementation procedure:_
 
 We used Kleopatra openPGP software to implement PGP for Email data encryption. By using this software we tried to generate public key and certificates.
+
 ![certificates_details](https://user-images.githubusercontent.com/58663029/168425231-953edcdd-ad24-4372-9ebe-ae9abc56e68b.png)
 
 This code automatically puts the the PGP key into the key store. The email address is your unique identifier for accessing the key from the key store. As you will see in the examples below, in order to encrypt a file we will use the public key portion from the key store; however, in order to decrypt that same file, we will use the private key portion with the passphrase.
