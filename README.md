@@ -52,7 +52,8 @@ The encrypted message is as below:
 
 **Decryption:**
 In order to decrypt the contents of this file, we need to use the PGP private key from the key store and the passphrase is needed when using the private key. Here is 
-![message](https://user-images.githubusercontent.com/58663029/168425556-1296ac93-7f65-4fe0-af77-f608058bf77a.png)
+
+![dec2](https://user-images.githubusercontent.com/58663029/168425832-34f4d5e8-8ae0-4195-9a68-c724b361401b.png)
 
 ## Cloud Deployment
 
