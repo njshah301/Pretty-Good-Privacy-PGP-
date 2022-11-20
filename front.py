@@ -52,7 +52,7 @@ def encrypt_file():
     call()
     userfile=pwi.file_upload('Choose your file')
     open(userfile['filename'],'wb').write(userfile['content'])
-    df=pd.read_csv(userfile['filename'], error_bad_lines=False)
+    df=pd.read_csv(userfile['filename'])
     main_data=df.to_string(index=False)
     encrypted_data=back.encrypt_data(main_data)
     pwo.clear()

@@ -1,9 +1,15 @@
+from pywebio import *
+
+
 def home_page():
-    import front
-    import back
     import gnupg
     import pywebio.output as pwo
+    import pywebio.platform.flask
     from pywebio.input import input
+
+    import back
+    import front
+
     pwo.clear() 
     pwo.put_html('''<!DOCTYPE html>
 <html>
@@ -55,3 +61,4 @@ body {
     
 if __name__ == '__main__':
     home_page()
+
